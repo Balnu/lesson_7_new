@@ -1,0 +1,442 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+	color: black;
+}
+.header {
+	max-height: 500px;
+	width: auto;
+}
+.logo {
+	display: inline-block;
+	max-height: 100px;
+	max-width: 110px;
+	margin-top: 10px;
+}
+.button {
+	margin: -200px 5px 5px 5px;
+	padding: 10px;
+	display: inline-block;
+	font-family: serif;
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 2px;
+	max-width: 300px;
+	min-height: 60px;
+	text-transform: uppercase;
+	color: blanchedalmond;
+	border: 5px solid transparent;
+	border-radius: 30px;
+	box-shadow: 10px 10px 7px rgb(66, 10, 24);
+	background-color: violet;
+	text-align: center;
+}
+.button__left {
+	margin-left: 110px;
+}
+.main {
+	background: url("../img/rose_pattern.jpg");
+}
+
+.text {
+	border: 5px dotted rgb(66, 10, 24);
+	background-color: rgb(231, 194, 194);
+	border-radius: 20%;
+	box-shadow: 10px 10px 5px 5px rgb(66, 10, 24);
+	margin: 80px 20px 30px 20px;
+}
+.text__name {
+	font-family: arial;
+	font-style: italic;
+	font-size: 55px;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.text__item {
+	font-family: serif;
+	font-size: 25px;
+	font-weight: normal;
+	padding: 10px 30px 30px 40px;
+}
+.scnd__text {
+	border: 5px dashed rgb(66, 10, 24);
+	background-color: rgb(231, 194, 194);
+	border-radius: 20%;
+	box-shadow: 10px 10px 5px 5px rgb(66, 10, 24);
+	margin: 30px 750px 5px 20px;
+	display: inline-block;
+}
+
+.scnd__text__name {
+	font-family: arial;
+	font-style: italic;
+	font-size: 45px;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.alstromeriya {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 5px dotted rgb(66, 10, 24);
+	display: block;
+	float: right;
+	margin: 10px;
+}
+.scnd__text__item {
+	font-family: serif;
+	font-size: 22px;
+	font-weight: normal;
+	padding: 10px 30px 30px 40px;
+	text-indent: 40px;
+	line-height: 100%;
+}
+.third__text {
+	border: 5px dashed rgb(66, 10, 24);
+	background-color: rgb(231, 194, 194);
+	border-radius: 20%;
+	box-shadow: 10px 10px 5px 5px rgb(66, 10, 24);
+	margin: -600px 20px 0px 620px;
+	display: inline-block;
+}
+
+.third__text__name {
+	font-family: arial;
+	font-style: italic;
+	font-size: 45px;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.anemon {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 5px dotted rgb(66, 10, 24);
+	display: block;
+	margin: 10px;
+	float: right;
+}
+.third__text__item {
+	font-family: serif;
+	font-size: 22px;
+	font-weight: normal;
+	padding: 10px 30px 30px 40px;
+	text-indent: 40px;
+}
+.fourth__text {
+	border: 5px double rgb(66, 10, 24);
+	background-color: rgb(231, 194, 194);
+	border-radius: 20%;
+	box-shadow: 10px 10px 5px 5px rgb(66, 10, 24);
+	margin: 50px 750px 5px 20px;
+	display: inline-block;
+}
+.fourth__text__name {
+	font-family: arial;
+	font-style: italic;
+	font-size: 45px;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.astra {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 5px dotted rgb(66, 10, 24);
+	display: block;
+	float: right;
+	margin: 10px;
+}
+.fourth__text__item {
+	font-family: serif;
+	font-size: 22px;
+	font-weight: normal;
+	padding: 10px 30px 30px 40px;
+	text-indent: 40px;
+}
+
+.fifth__text {
+	border: 5px double rgb(66, 10, 24);
+	background-color: rgb(231, 194, 194);
+	border-radius: 20%;
+	box-shadow: 10px 10px 5px 5px rgb(66, 10, 24);
+	margin: -1000px 20px 0px 620px;
+	display: inline-block;
+}
+.fifth__text__name {
+	font-family: arial;
+	font-style: italic;
+	font-size: 45px;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.gvozdiki {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 5px dotted rgb(66, 10, 24);
+	display: block;
+	margin: 10px;
+	float: right;
+}
+.fifth__text__item {
+	font-family: serif;
+	font-size: 22px;
+	font-weight: normal;
+	padding: 10px 30px 30px 40px;
+	text-indent: 40px;
+}
+
+.six__text {
+	border: 5px double rgb(66, 10, 24);
+	background-color: rgb(231, 194, 194);
+	border-radius: 20%;
+	box-shadow: 10px 10px 5px 5px rgb(66, 10, 24);
+	margin: 10px 750px 5px 20px;
+	display: inline-block;
+}
+.six__text__name {
+	font-family: arial;
+	font-style: italic;
+	font-size: 45px;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.gerbera {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 5px dotted rgb(66, 10, 24);
+	display: block;
+	float: right;
+	margin: 10px;
+}
+.six__text__item {
+	font-family: serif;
+	font-size: 22px;
+	font-weight: normal;
+	padding: 10px 30px 30px 40px;
+	text-indent: 40px;
+}
+
+.seven__text {
+	border: 5px double rgb(66, 10, 24);
+	background-color: rgb(231, 194, 194);
+	border-radius: 20%;
+	box-shadow: 10px 10px 5px 5px rgb(66, 10, 24);
+	margin: -1500px 20px 10px 620px;
+	display: inline-block;
+}
+.seven__text__name {
+	font-family: arial;
+	font-style: italic;
+	font-size: 45px;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.giatsint {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 5px dotted rgb(66, 10, 24);
+	display: block;
+	margin: 10px;
+	float: right;
+}
+.seven__text__item {
+	font-family: serif;
+	font-size: 22px;
+	font-weight: normal;
+	padding: 10px 30px 30px 40px;
+	text-indent: 40px;
+}
+.scroll {
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	line-height: 100%;
+	text-indent: 50px;
+	max-width: 1200px;
+	max-height: 500px;
+	border: 5px dotted rgb(66, 10, 24);
+	margin: 30px 30px 0px 100px;
+	padding: 30px 20px 30px 50px;
+	overflow: auto;
+	background: linear-gradient(
+		to bottom,
+		rgba(30, 87, 153, 1) 0%,
+		rgba(30, 87, 153, 1) 14%,
+		rgba(61, 119, 179, 1) 42%,
+		rgba(103, 162, 214, 0.7) 80%,
+		rgba(125, 185, 232, 0) 100%
+	); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.scroll h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 33px;
+	font-style: italic;
+	line-height: 100%;
+	font-weight: 700;
+	text-align: center;
+	text-indent: 50px;
+	padding: 30px;
+}
+.back__image {
+	color: rgb(252, 6, 6);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	line-height: 100%;
+	text-indent: 50px;
+	max-width: 1200px;
+	max-height: 500px;
+	border: 5px dashed rgb(66, 10, 24);
+	margin: 30px 30px 20px 100px;
+	padding: 30px 20px 30px 50px;
+	overflow: auto;
+	background-image: url("../img/romashka_2.jpg");
+	background-size: 1600px auto;
+	background-position: center;
+	background-attachment: local;
+}
+.iris {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	line-height: 100%;
+	text-indent: 50px;
+	max-width: 1200px;
+	max-height: 500px;
+	background: rosybrown url("../img/Iris-1-150x150.jpg") repeat-x bottom;
+	max-width: 1200px;
+	max-height: 500px;
+	margin: 30px 30px 20px 100px;
+	padding: 30px 20px 30px 50px;
+	overflow: hidden;
+}
+.gortenzia {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #000;
+	font-style: italic;
+	line-height: 100%;
+	text-indent: 50px;
+	max-width: 600px;
+	max-height: 1000px;
+	background: rgb(235, 202, 15) url("../img/Gortenzia-150x150.jpg") repeat-y right 50%;
+	display: inline-block;
+	margin: 30px 30px 20px 100px;
+	padding: 30px 20px 30px 50px;
+	overflow: hidden;
+}
+.tulip {
+	margin-top: 30px;
+	opacity: 0.7;
+
+	width: 520px;
+	max-height: 1000px;
+	display: inline-block;
+}
+
+.landysh__text {
+	width: 900px;
+	min-height: 300px;
+	background: rgba(146, 56, 220, 0.6);
+	margin: 10px 30px 0px 160px;
+	padding: 50px;
+}
+.landysh {
+	display: block;
+	float: left;
+}
+.landysh__name {
+	font-family: serif;
+	font-weight: 700;
+	font-size: 45px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.landysh__item {
+	font-family: serif;
+	font-weight: 500;
+	font-size: 35px;
+	text-align: left;
+	text-indent: 20px;
+}
+
+.romashka {
+	width: 900px;
+	min-height: 250px;
+
+	background: rgb(141, 236, 169) url("../img/romashka.jpg") center 50% no-repeat;
+	margin: 10px 30px 0px 160px;
+}
+
+.mak__text {
+	max-height: 700px;
+	max-width: 1000px;
+	margin: 10px 30px 0px 130px;
+	background: olive url("../img/Mak-150x150.jpg") center/cover no-repeat fixed;
+	overflow: auto;
+}
+.mak__name {
+	margin-top: 50px;
+	font-family: serif;
+	font-weight: 700;
+	font-size: 45px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.mak__text__item {
+	font-family: serif;
+	font-size: 22px;
+	font-weight: normal;
+	padding: 10px 30px 30px 40px;
+	text-indent: 40px;
+}
